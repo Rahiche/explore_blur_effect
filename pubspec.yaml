@@ -1,0 +1,40 @@
+name: explore_blur_effect
+description: Blur effect demos
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  flutter_shaders: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  shaders:
+    - shaders/name_drop.frag
+    - shaders/box.frag
+    - shaders/gaussian.frag
+    - shaders/lens.frag
+    - shaders/mean.frag
+    - shaders/motion.frag
+    - shaders/radial.frag
+    - shaders/shape.frag
+    - shaders/smart.frag
+    - shaders/surface.frag
+    - shaders/tilt_shift.frag
+    - shaders/glass.frag
+    - shaders/tilt_shift_gaussian.frag
+
+  assets:
+    - assets/bg.png
+    - assets/rg.jpg
